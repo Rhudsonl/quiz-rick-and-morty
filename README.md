@@ -1,7 +1,7 @@
 # quiz-rick-and-morty
 
 
-#Description
+<h2>Description</h2>
 The code consists of a quiz about the animated series "Rick and Morty". The quiz is implemented using HTML, CSS, and JavaScript. JavaScript is responsible for calculating the user's score based on the provided answers and displaying the result.
 
 #Features
