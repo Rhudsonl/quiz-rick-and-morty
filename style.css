@@ -1,0 +1,10 @@
+.intro-color {
+    background:  #00A5C6;
+}
+
+.bg {
+    background: #092128;
+}
+html {
+    scroll-behavior: smooth;
+}
