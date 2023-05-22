@@ -3,10 +3,13 @@ const result = document.querySelector('.result')
 const percentageResult = result.querySelector('span')
 const correctAnswers = ['B', 'C', 'A', 'A', 'A']
 
-let score = 0 
+
 
 form.addEventListener('submit', event => {
     event.preventDefault()
+
+   let score = 0
+
   const  userAnsewrs = [
     event.target.flexRadioDefault.value,
     event.target.flexRadioDefault2.value,
@@ -26,7 +29,8 @@ form.addEventListener('submit', event => {
         left: 0
     })
 
-     let counter = 0
+   let counter = 0
+     
      
      const time = setInterval(() => {
          percentageResult.textContent = `${counter}%`
@@ -34,13 +38,13 @@ form.addEventListener('submit', event => {
          
          if(counter === score) {
              clearInterval(time)
+             
             }
             counter++
         },30)
         
-           
-        
     
+      
 })
 
 
